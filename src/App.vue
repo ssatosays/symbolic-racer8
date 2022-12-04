@@ -10,6 +10,10 @@
         <b-button class="btn-sm ms-2" variant="outline-primary" @click="initPosition">init position</b-button>
       </div>
     </div>
+    <div v-if="debug" class="text-start mt-1 mb-1 bg-warning">
+      <div>zoom: {{ zoom }}</div>
+      <div>center: {{ center }}</div>
+    </div>
     <div class="map">
       <l-map
         :zoom="zoom"
@@ -61,7 +65,7 @@ export default {
     const url = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
     const attribution = '&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors'
     return {
-      debug: false,
+      debug: true,
       zoom: 0,
       minZoom: minZoom,
       maxZoom: maxZoom,
