@@ -65,7 +65,7 @@ export default {
     const url = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
     const attribution = '&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors'
     return {
-      debug: true,
+      debug: false,
       zoom: 0,
       minZoom: minZoom,
       maxZoom: maxZoom,
