@@ -30,14 +30,14 @@
         <template v-for="(marker, idx) in markers">
           <l-marker :lat-lng="marker.latLng" :visible="marker.visible" :key="idx">
             <l-popup>
-              <div @click="clickPopup(marker.code)" style="cursor: pointer">{{ marker.name }}</div>
+              <div class="pointer" @click="clickPopup(marker.code)">{{ marker.name }}</div>
             </l-popup>
           </l-marker>
         </template>
       </l-map>
     </div>
     <b-modal ref="modal" hide-header-close ok-only>
-      <div style="height: 350px">
+      <div class="modal-inner">
         <iframe
           width="100%"
           height="100%"
@@ -127,5 +127,11 @@ export default {
 .map {
   height: 550px;
   width: 100%;
+}
+.pointer {
+  cursor: pointer;
+}
+.modal-inner {
+  height: 350px;
 }
 </style>
