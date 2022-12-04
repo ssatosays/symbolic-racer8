@@ -77,7 +77,7 @@ export default {
           name: '東京駅',
           latLng: latLng(35.681235294054765, 139.76712523292755),
           visible: true,
-          code: 'Hsc__3CfA3Q'
+          code: ''
         }
       ],
       youtubeUrl: ''
