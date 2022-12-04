@@ -58,7 +58,7 @@
           class="btn-sm ms-2"
           variant="outline-success"
           href="https://twitter.com/itakurasyumiCh"
-        >板倉趣味チャンネルスタッフ さいとうちゃんのTwitter</b-button>
+        >さいとうちゃんのTwitter</b-button>
       </div>
       <div class="mt-2">
         <b-button
@@ -253,7 +253,7 @@ export default {
   margin-top: 20px;
 }
 .map {
-  height: 600px;
+  height: 500px;
   width: 100%;
 }
 .pointer {
