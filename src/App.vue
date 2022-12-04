@@ -36,7 +36,7 @@
         </template>
       </l-map>
     </div>
-    <div class="text-start ms-2 mt-3">
+    <div class="text-start ms-2 mb-3 mt-3">
       <div class="mb-1">
         ・ 板倉さんのYouTube企画「ハイエース一人旅」で行かれていた場所をマッピングしてみました。<br />
         ・ ポップアップをクリックすると動画がモーダル表示されます。
