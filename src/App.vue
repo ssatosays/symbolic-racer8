@@ -138,6 +138,42 @@ export default {
           latLng: latLng(35.52447139267352, 139.03950733914553),
           visible: true,
           code: 'pCFyqzMeGaw'
+        },
+        {
+          name: 'ネイチャーランドオム', // 11th
+          latLng: latLng(35.52441900155076, 139.03917206300693),
+          visible: true,
+          code: 'dS9Po2_aHL4'
+        },
+        {
+          name: 'RVパーク 八ヶ岳高原「原村」 もみの木', // 12th
+          latLng: latLng(35.96659089134671, 138.25516511535548),
+          visible: true,
+          code: 'AiuLqVzr3bc'
+        },
+        {
+          name: 'RVパーク 蓼科パークホテル', // 13th
+          latLng: latLng(36.03803968224812, 138.27021410255347),
+          visible: true,
+          code: 'ho3g8cxmFgY'
+        },
+        {
+          name: 'さがざわキャンプ場', // 14th
+          latLng: latLng(35.57558405384078, 139.06996812680984),
+          visible: true,
+          code: 'sDn5lokgMKw'
+        },
+        {
+          name: 'いなかの風キャンプ場', // 15th
+          latLng: latLng(35.680442550407975, 137.95138280701505),
+          visible: true,
+          code: 'FOl9yQOJvX8'
+        },
+        {
+          name: 'RVパーク ゆーとろん水神の湯', // 16th
+          latLng: latLng(35.91466729085403, 138.21192585565143),
+          visible: true,
+          code: 'j92P-EHCBoY'
         }
       ],
       youtubeUrl: ''
