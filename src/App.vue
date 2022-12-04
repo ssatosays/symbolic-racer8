@@ -36,6 +36,38 @@
         </template>
       </l-map>
     </div>
+    <div class="text-start ms-2 mt-3">
+      <div class="mb-1">
+        ・ 板倉さんのYouTube企画「ハイエース一人旅」で行かれていた場所をマッピングしてみました。<br />
+        ・ ポップアップをクリックすると動画がモーダル表示されます。
+      </div>
+      <div>
+        <b-button
+          class="btn-sm"
+          variant="outline-success"
+          href="https://www.youtube.com/@user-dk9ms9rh1d"
+        >板倉 趣味チャンネル(YouTube)</b-button>
+      </div>
+      <div class="mt-2">
+        <b-button
+          class="btn-sm"
+          variant="outline-success"
+          href="https://twitter.com/itazuratoshiyuk"
+        >板倉さんのTwitter</b-button>
+        <b-button
+          class="btn-sm ms-2"
+          variant="outline-success"
+          href="https://twitter.com/itakurasyumiCh"
+        >板倉趣味チャンネルスタッフ さいとうちゃんのTwitter</b-button>
+      </div>
+      <div class="mt-2">
+        <b-button
+          class="btn-sm"
+          variant="outline-success"
+          href="https://suzuri.jp/itakura-ch"
+        >ストア(suzuri)</b-button>
+      </div>
+    </div>
     <b-modal ref="modal" hide-header-close ok-only>
       <div class="modal-inner">
         <iframe
