@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-import { LMap, LTileLayer, LMarker, LTooltip } from 'vue2-leaflet'
+import { LMap, LTileLayer, LMarker, LPopup, LTooltip } from 'vue2-leaflet'
 import { Icon } from 'leaflet'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -15,6 +15,9 @@ Vue.use(IconsPlugin)
 Vue.component('l-map', LMap)
 Vue.component('l-tile-layer', LTileLayer)
 Vue.component('l-marker', LMarker)
+// https://leafletjs.com/reference.html#popup
+Vue.component('l-popup', LPopup)
+// https://leafletjs.com/reference.html#tooltip
 Vue.component('l-tooltip', LTooltip)
 
 // https://vue2-leaflet.netlify.app/quickstart/#marker-icons-are-missing
