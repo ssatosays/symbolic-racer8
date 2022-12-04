@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div class="text-start ms-2 mb-3">
-      <div>
+      <!-- <div>
         <h5 class="title">symbolic-racer8</h5>
-      </div>
+      </div> -->
       <div>
         <b-button class="btn-sm" variant="outline-primary" @click="initScalingAndPosition">init</b-button>
         <b-button class="btn-sm ms-2" variant="outline-primary" @click="initScaling">init scaling</b-button>
@@ -250,10 +250,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .map {
-  height: 550px;
+  height: 600px;
   width: 100%;
 }
 .pointer {
