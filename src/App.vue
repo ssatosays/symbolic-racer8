@@ -206,6 +206,12 @@ export default {
           latLng: latLng(35.91466729085403, 138.21192585565143),
           visible: true,
           code: 'j92P-EHCBoY'
+        },
+        {
+          name: '磐梯高原・絶景の猪苗代スキー場 RVパーク', // 17th
+          latLng: latLng(37.57417677327979, 140.09435690758454),
+          visible: true,
+          code: 'naSE9iXsL54'
         }
       ],
       youtubeUrl: ''
